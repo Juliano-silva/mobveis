@@ -5,4 +5,61 @@
 body{
     color: white;
     background: black;
+    
+}
+#header{
+    background: transparent;
+    width: 75em;
+    margin: auto;
+    display: block;
+    text-align: left;
+    height: 2em;
+}
+#sub-header{
+    margin-left: 30em;
+    padding: 1px;
+    letter-spacing: 6px;
+    text-align: right;
+    margin-top: -30px;
+    line-height: 1.5;
+    
+}
+#sub-header > a{
+    text-decoration: none;
+    color: white;
+}
+#sub-header > a:hover{
+    color: lawngreen;
+    transition: 1s;
+    transition-duration: 2s;
+}
+#fundo{
+    background-image: url(img/Fundo.jpg);
+    height: 49.2em;
+    
+}
+#centralizado{
+    margin-top: 200px;
+    color: rgb(248, 229, 175);
+    border: 0px solid transparent;
+    width:75em;
+    display: block;
+    transition-duration: 1s;
+    transform: 4s;
+}
+#centralizado > h3{
+    font-size: 3em;
+}
+#border{
+    border-left:6px solid orange ; 
+    height: 12em;
+    
+
+}
+hr{
+    background:orange;
+    border: 2px solid orange;
+    width: 44.8em;
+    margin-left: 450px;
+    margin-top: -30px;
 }
