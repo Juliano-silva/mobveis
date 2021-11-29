@@ -5,7 +5,7 @@
 body{
     color: white;
     background: black;
-    
+    overflow-x: hidden;
 }
 #header{
     background: transparent;
@@ -35,7 +35,7 @@ body{
 }
 #fundo{
     background-image: url(img/Fundo.jpg);
-    height: 49.2em;
+    height: 49.3em;
     
 }
 #centralizado{
@@ -53,8 +53,6 @@ body{
 #border{
     border-left:6px solid orange ; 
     height: 12em;
-    
-
 }
 hr{
     background:orange;
@@ -62,4 +60,33 @@ hr{
     width: 44.8em;
     margin-left: 450px;
     margin-top: -30px;
+}
+#caixa{
+    background: black;
+    height: 20em;
+}
+#caixa > h2{
+    color: white;
+    border: 1px solid transparent;
+    border-left: 8px solid orange;
+    width: 20em;
+    margin: auto;
+    display: block;
+}
+#caixa > p{
+    margin-left: 120px;
+    border: 1px solid transparent;
+    font-size: 25px;
+    width: 15em;
+    height: 10em;
+}
+#caixa > img{
+    margin-left: 1140px;
+    margin-top: -320px;
+    width: 25em;
+    height: 25em;
+}
+#caixa1{
+background: red;
+margin-top: 170px;
 }
