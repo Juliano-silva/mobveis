@@ -7,6 +7,10 @@ body{
     background: black;
     overflow-x: hidden;
 }
+h1{
+    text-align: center;
+}
+/* Header */
 #header{
     background: transparent;
     width: 75em;
@@ -18,11 +22,11 @@ body{
 #sub-header{
     margin-left: 30em;
     padding: 1px;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
     text-align: right;
     margin-top: -30px;
-    line-height: 1.5;
-    
+    line-height: 1.70;
+    word-spacing: 10px;  
 }
 #sub-header > a{
     text-decoration: none;
@@ -38,6 +42,7 @@ body{
     height: 49.3em;
     
 }
+/* Box  */
 #centralizado{
     margin-top: 200px;
     color: rgb(248, 229, 175);
@@ -63,7 +68,7 @@ hr{
 }
 #caixa{
     background: black;
-    height: 20em;
+    height: 18em;
 }
 #caixa > h2{
     color: white;
@@ -86,7 +91,85 @@ hr{
     width: 25em;
     height: 25em;
 }
+/* Box1 */
 #caixa1{
-background: red;
-margin-top: 170px;
+background: white;
+margin-top: 200px;
+color: black;
+height: 38em;
+}
+#sub-caixa{
+    width: 96em;
+    height: 35em;
+    margin: auto;
+    display: block;
+    border: 5px solid rgb(216, 161, 60);
+    border-top:transparent;
+    border-bottom: transparent;
+    border-radius:80px ;
+}
+#sub-caixa > h1{
+    display: block;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 500px;
+    margin: auto;
+    font-size: 80px;
+    position: relative;
+    border: 10px solid white;
+    border-left: 10px solid orange;
+    width: 5em; 
+}
+#sub-caixa > p{
+    width: 55em;
+    font-size:25px ;
+    margin: auto;
+}
+#centra{
+    width: 10em;
+}
+#img{
+   width: 90em;
+   height: 10em; 
+   border: 1px solid white;
+   margin: auto;
+}
+#a{ 
+    margin-left: 100px;
+    display: inline-block;
+    width: 18em;
+    text-align: center;
+}
+/* Box 2 */
+#caixa2{
+    background-image: radial-gradient(rgb(169, 228, 169),#5698fa) ;
+    height: 53em;
+}
+#carrousel{
+    margin-top: 100px;
+    width: 98em;
+    height: 45em;
+    margin: auto;
+    display: block;
+}
+#indicators{
+    background: red;
+
+}
+#indicators:hover{
+    background: blue;
+    cursor: pointer;
+}
+
+#caixa3{
+    background: red;
+}
+#caixa4{
+    background: green;
+}
+#caixa5{
+    background: grey;
+}
+#caixa6{
+    background: hotpink;
 }
