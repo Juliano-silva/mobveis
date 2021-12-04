@@ -9,6 +9,18 @@ body{
 }
 h1{
     text-align: center;
+    
+}
+#H1P{
+    display: block;
+    text-align: center;
+    margin-top: -10px;
+    margin: auto;
+    font-size: 80px;
+    position: relative;
+    border: 10px solid transparent;
+    border-left: 10px solid orange;
+    width: 5em; 
 }
 /* Header */
 #header{
@@ -18,6 +30,7 @@ h1{
     display: block;
     text-align: left;
     height: 2em;
+    
 }
 #sub-header{
     margin-left: 30em;
@@ -108,18 +121,6 @@ height: 38em;
     border-bottom: transparent;
     border-radius:80px ;
 }
-#sub-caixa > h1{
-    display: block;
-    text-align: center;
-    margin-top: -10px;
-    margin-left: 500px;
-    margin: auto;
-    font-size: 80px;
-    position: relative;
-    border: 10px solid white;
-    border-left: 10px solid orange;
-    width: 5em; 
-}
 #sub-caixa > p{
     width: 55em;
     font-size:25px ;
@@ -142,30 +143,87 @@ height: 38em;
 }
 /* Box 2 */
 #caixa2{
-    background-image: radial-gradient(rgb(169, 228, 169),#5698fa) ;
-    height: 53em;
+    background-image: radial-gradient(black,gray) ;
+    height: 50.5em;
 }
 #carrousel{
     margin-top: 100px;
-    width: 98em;
+    width: 99em;
     height: 45em;
     margin: auto;
     display: block;
 }
-#indicators{
-    background: red;
-
-}
-#indicators:hover{
-    background: blue;
-    cursor: pointer;
-}
-
 #caixa3{
-    background: red;
+    background: rgb(157, 160, 207);
+    height: 18em;
 }
+
 #caixa4{
-    background: green;
+    background: rgb(156, 165, 156);
+    height: 49.3em;
+}
+#container > img{
+   margin-left: -10px;
+   
+}
+#container > a{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 540px;
+    left: 10px;
+    width: 768px;
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+}
+#container1 > img{
+    margin-top: -510px;
+    margin-left: 790px;
+}
+#container1 >  a{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 540px;
+    left: 810px;
+    width: 768px;
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+}
+#container2 > img{
+    margin-left: -10px;
+}
+#container2 > a{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 1044px;
+    left: 10px;
+    width: 768px;
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+}
+#container3 >img{
+    margin-top: -509px;
+    margin-left: 790px;
+}
+#container3 > a{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    top: 1044px;
+    left: 810px;
+    width: 768px;
+    line-height: 30px;
+    height: 30px;
 }
 #caixa5{
     background: grey;
