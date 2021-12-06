@@ -30,16 +30,17 @@ h1{
     display: block;
     text-align: left;
     height: 2em;
-    
+    margin-left: 12em;
 }
 #sub-header{
-    margin-left: 30em;
+    margin-left: 45em;
     padding: 1px;
     letter-spacing: 1px;
     text-align: right;
-    margin-top: -30px;
+    margin-top: 10px;
     line-height: 1.70;
     word-spacing: 10px;  
+    position: fixed;
 }
 #sub-header > a{
     text-decoration: none;
@@ -50,7 +51,11 @@ h1{
     transition: 1s;
     transition-duration: 2s;
 }
+#ico{
+    position: fixed;
+}
 #fundo{
+    margin-top: -1px;
     background-image: url(img/Fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +68,7 @@ h1{
 }
 /* Box  */
 #centralizado{
-    margin-top: 200px;
+    margin-top: 280px;
     color: rgb(248, 229, 175);
     border: 0px solid transparent;
     width:75em;
