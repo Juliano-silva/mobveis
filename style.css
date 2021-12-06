@@ -35,7 +35,7 @@ h1{
 #sub-header{
     margin-left: 30em;
     padding: 1px;
-    letter-spacing: 8px;
+    letter-spacing: 1px;
     text-align: right;
     margin-top: -30px;
     line-height: 1.70;
@@ -52,8 +52,14 @@ h1{
 }
 #fundo{
     background-image: url(img/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 49.3em;
-    
+}
+#fundo2{
+    background: yellow;
+    height: 49.3em;
+    opacity: 0.2;
 }
 /* Box  */
 #centralizado{
@@ -157,10 +163,8 @@ height: 38em;
     background: rgb(157, 160, 207);
     height: 18em;
 }
-
 #caixa4{
-    background: rgb(156, 165, 156);
-    height: 49.3em;
+    height: 75em;
 }
 #container > img{
    margin-left: -10px;
@@ -169,14 +173,22 @@ height: 38em;
 #container > a{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
-    color:#fff;
+    color:orange;
     text-align: center;
-    top: 540px;
+    top: 590px;
     left: 10px;
     width: 768px;
     text-decoration: none;
-    line-height: 30px;
-    height: 30px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
+}
+#container > img:hover,
+#container1 > img:hover,
+#container2 > img:hover,
+#container3 > img:hover{
+    border: 4px solid orange;
+    
 }
 #container1 > img{
     margin-top: -510px;
@@ -185,14 +197,15 @@ height: 38em;
 #container1 >  a{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
-    color:#fff;
+    color:orange;
     text-align: center;
-    top: 540px;
+    top: 589px;
     left: 810px;
     width: 768px;
     text-decoration: none;
-    line-height: 30px;
-    height: 30px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
 }
 #container2 > img{
     margin-left: -10px;
@@ -200,14 +213,41 @@ height: 38em;
 #container2 > a{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
-    color:#fff;
+    color:orange;
     text-align: center;
-    top: 1044px;
+    top: 1093.9px;
     left: 10px;
     width: 768px;
     text-decoration: none;
-    line-height: 30px;
-    height: 30px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
+}
+#gray{
+    position: absolute;
+    background-color: rgba(116, 109, 109, 9);
+    opacity: 0.8;
+    color:orange;
+    text-decoration: none;
+    text-align: center;
+    top: 663px;
+    left: 810px;
+    width: 768px;
+    line-height: 50px;
+    height: 481px;
+    font-size: 35px;
+}
+#gray:hover{
+    border: 4px solid orange;
+}
+#gray > h1{
+    position: absolute;
+    color:orange;
+    text-align: center;
+    top: 150px;
+    left: auto;
+    width: 768px;
+    font-size: 100px;
 }
 #container3 >img{
     margin-top: -509px;
@@ -216,18 +256,47 @@ height: 38em;
 #container3 > a{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
-    color:#fff;
+    color:orange;
     text-decoration: none;
     text-align: center;
-    top: 1044px;
+    top: 1094px; 
     left: 810px;
     width: 768px;
-    line-height: 30px;
-    height: 30px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
 }
 #caixa5{
     background: grey;
+    margin-left: -20px;
+    width: 100em;
+    height: 35em;
+    margin-top: -1px;
+}
+#caixa5 > p{
+    width: 15em;
+    margin-top: 8px;
+    margin-left: 190px;
+    font-size: 2.3em;
+}
+#caixa5 > img{
+    margin-top: -15em;
+    margin-left: 50em;
+    width: 40em;
+    height: 25em;
 }
 #caixa6{
-    background: hotpink;
+    background: rgb(48, 47, 47);
+    width: 100em;
+    margin-left: -20px;
+    height: 24em;
+}
+#footerDev{
+    background-color: rgb(2, 2, 2);
+    height: 3em;
+    margin-left: -20px;
+}
+#footerDev > h1{
+    text-align: center;
+    color: white;
 }
