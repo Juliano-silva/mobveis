@@ -11,42 +11,46 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
 </head>
-<body  onload="load()" onscroll="passar()">
+<body id="body">
+  <!-- Loading -->
     <!-- Header -->
-    <div id="fundo">
+    <div id="fundo" onpointerenter="começo()">
         <div id="header">
+          <div id="fixed">
             <a href="#">
-                <img id="ico" src="img/icons8-tv-g-48.png" alt="">
+                <img id="ico" src="img/icons8-tv-g-48.png">
             </a>
         <div id="sub-header">
-            <a href="#">Home</a>
-            <a href="Portfólio.html">Portfólio</a>
-            <a href="Outlet.html">Outlet</a>
-            <a href="Contanto.html">Contanto</a>
-            <a href="Serviço.html">Serviço</a>
-            <a style="word-spacing: 1px;" href="Sobre.html">Sobre Nós</a>
+            <a href="index.html">Home</a>
+            <a href="Janelas/Portfólio.html">Portfólio</a>
+            <a href="Janelas/Outlet.html">Outlet</a>
+            <a href="Janelas/Contanto.html">Contanto</a>
+            <a href="Janelas/Serviço.html">Serviço</a>
+            <a href="Janelas/Sobre.html">Sobre Nós</a>
         </div>
+      </div>
         <!-- Box 1 -->
         <br>
         <div id="border">
         <div id="centralizado">
         <h3>Mobveis Planejados</h3>
         <hr> 
-        <h1 style="font-size: 8em;">Padrão sobrenatural</h1>
+        <h1>Padrão sobrenatural</h1>
     </div>
   </div>
     </div>
     </div>
     <!-- Box 2 -->
-    <div id="caixa">
+    <div id="caixa" onpointerenter="passar()">
         <h2>O que temos a oferecer</h2>
-        <h4 style="font-size: 3em;">Quem sou eu?</h4>
-        <p>Sou um programador iniciante de 17 anos que tem o sonho de se tornar um programador fullstack, esse site é sobre moveis e mostrar onde temos os maiores descontos.</p>
-        <h4 style="font-size: 3em; margin-left: 18em; margin-top: -7em;">Equipe</h4>
-        <p style="margin-left: 30em;">Nossa equipe é formada por um programador, um analista de dados e um dono de pastelaria.</p>
-        <img src="img/Autor bebe G.png" alt="">
-        <p style="border: 1px solid transparent; width: 22em; height: 2em; margin-left: 1020px; color: gray;">Juliano silva de almeida - Instagram ju.liano1841</p>
+        <h4>Quem sou eu?</h4>
+        <p id="p1">Sou um programador iniciante de 17 anos que tem o sonho de se tornar um programador fullstack, esse site é sobre moveis e mostrar onde temos os maiores descontos.</p>
+        <h4 id="Eq">Equipe</h4>
+        <p id="p2">Nossa equipe é formada por um programador, um analista de dados e um dono de pastelaria.</p>
+        <img src="img/Autor bebe G.png">
+        <p id="p3">Juliano silva de almeida - Instagram ju.liano1841</p>
     </div>
+    <!-- Box 3 -->
     <div id="caixa1">
         <br>
         <div id="sub-caixa">
@@ -55,9 +59,9 @@
             <p>Nossa equipe aqui no mobveis trabalha apenas com profissionais nosso moveis pode até ser chamado de sobrenatural (piada não intencional ). Hoje trabalhamos com mais de uma pessoa e temos foco em trazer o melhor auxílio e qualidade em nossos produtos por que nossos produtos são de qualidade e mostrar como deixar a sua casa belíssima gastando muito pouco com nossos descontos supimpa.</p>
             <br>
             <div id="img">
-            <img id="centra" style=" margin-left: 200px;" src="img/Engrenagem.png">
-            <img id="centra" style=" margin-left: 315px;" src="img/Mira.png">
-            <img id="centra" style=" margin-left: 290px;" src="img/Selo.png">
+            <img id="centra1" src="img/Engrenagem.png">
+            <img id="centra2" src="img/Mira.png">
+            <img id="centra3" src="img/Selo.png">
             <BR></BR>
             <h5 href="#" id="a">Equipe com foco do cliente</h5>
             <h5 href="#" id="a">Tecnologia de ponta em cada processo</h5>
@@ -65,7 +69,7 @@
         </div>
         </div>
         </div>
-        <!-- Carrossel -->
+        <!-- Carrossel 1 -->
     <div id="caixa2">
         <div id="carouselsite" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -94,127 +98,126 @@
         <div class="carousel-caption d-none d-md-block">
         </div>
     </div>
-          <!-- Carrossel -->
-          <ol class="carousel-Text">
-            <li style="margin-left: -20px;" data-target="#carouselsite" data-slide-to="0" class="active">
+          <!-- Carrossel 2 -->
+          <ol id="carousel-Text" class="carousel-Text">
+            <li data-target="#carouselsite" data-slide-to="0" class="active">
               SALA
             </li>
-            <li style="margin-left: 10px;" data-target="#carouselsite" data-slide-to="1">
+            <li data-target="#carouselsite" data-slide-to="1">
               COZINHA
             </li>
-            <li style="margin-left: 10px;" data-target="#carouselsite" data-slide-to="2">
+            <li data-target="#carouselsite" data-slide-to="2">
               QUARTO
             </li>
-            <li style="margin-left: 10px;" data-target="#carouselsite" data-slide-to="3">
+            <li data-target="#carouselsite" data-slide-to="3">
               BANHEIRO
             </li>
-            <li style="margin-left: 10px;" data-target="#carouselsite" data-slide-to="4">
+            <li data-target="#carouselsite" data-slide-to="4">
               OUTROS
             </li>
           </ol>
            <br>
             </div>
-     <!-- BOX 3  -->
+     <!-- BOX 4  -->
     </div>
-    <div id="caixa3" style="margin-top: -10px;">
+    <div id="caixa3">
       <br>
-        <h1 id="H1P" style="margin-top: 10px; margin: auto; margin-right: 650px;"> Depoimentos </h1>
-        <div id="Depoimentos" style="margin-top: 30px;" class="carousel slide" data-ride="carousel" >
+        <h1 id="H1P"> Depoimentos </h1>
+        <div id="Depoimentos" class="carousel slide" data-ride="carousel" >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h1 >Foi incrível fui super bem atendida os funcionários são muito gentis e educados</h1>
-            <p style="text-align: center; color: rgb(71, 69, 69)">Destino Pires Canto</p>
+          <h1>Foi incrível fui super bem atendida os funcionários são muito gentis e educados</h1>
+            <p id="carouselp">Destino Pires Canto</p>
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
           <h1>Esse site é muito belo e muito bem programado</h1>
-          <p style="text-align: center; color: rgb(71, 69, 69)">Matilde Corte-Real Carlos</p>
+          <p id="carouselp">Matilde Corte-Real Carlos</p>
           <div class="carousel-caption d-none d-md-block text-light">
           </div>
         </div>
         <div class="carousel-item">
           <h1>Entrei querendo uma televisão sai com uma privada nova 10/10</h1>
-          <p style="text-align: center; color: rgb(71, 69, 69)">Noémi Henriques Muxagata</p>
+          <p id="carouselp">Noémi Henriques Muxagata</p>
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
           <h1>Eu ouvi falar que o pasteleiro é um gato</h1>
-          <p style="text-align: center; color: rgb(71, 69, 69)">Iris Tristão Bingre</p>
+          <p id="carouselp">Iris Tristão Bingre</p>
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
           <h1>Eu não gostei Deslike 😡</h1>
-          <p style="text-align: center; color: rgb(71, 69, 69)">Aquecia Belchiorinho Belo</p>
+          <p id="carouselp">Aquecia Belchiorinho Belo</p>
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#Depoimentos" style="margin-top: 40px; margin-left: 600px;" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#Depoimentos" id="prev" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
         <span class="sr-only">Anterior</span>
       </a>
-      <a class="carousel-control-next" href="#Depoimentos" style="margin-top: 40px; margin-right: 600px;"  role="button" data-slide="next">
+      <a class="carousel-control-next" href="#Depoimentos" id="next" role="button" data-slide="next">
         <span class="carousel-control-next-icon"></span>
         <span class="sr-only">Avançar</span>
       </a>
       </div>
     </div>
-    <!-- Descontos box 4 -->
-      <div class="card" style="background: #1B1B1B;">
-        <div class="card-body" id="caixa4" style="background: #1B1B1B; margin: auto; display: block; ">
-          <h1 id="H1P" style="width: 9em;">Nossos descontos</h1>
+    <!-- Descontos box 5 -->
+      <div class="card" id="card">
+        <div class="card-body" id="caixa4">
+          <h1 id="H1P">Nossos descontos</h1>
           <br>
           <div id="container">
-           <img src="img/Monitor-removebg-preview.png" style="width: 48em; height: 30em; background: #1B1B1B">
+           <img src="img/Monitor-removebg-preview.png">
            <a href="#">5% OFF</a>
           </di>
           <div id="container1">
-           <img src="img/Móvel-removebg-preview.png" style="width: 48em; height: 30em;">
+           <img src="img/Móvel-removebg-preview.png">
            <a href="#">15% OFF</a>
           </di>
           <div id="container2">
-           <img src="img/Cadeira.jpg" style="width: 48em; height: 30em;">
+           <img src="img/Cadeira.jpg">
            <a href="#">25% OFF</a>
           </di>
           <div id="gray">
             <h1>APAGADO</h1>
-          </div>
+          </div> 
           <div id="container3">
-           <img src="img/Tapete.png" style="width: 48em; height: 30.1em;">
+           <img src="img/Tapete.png" >
            <a href="#">30% OFF</a>
           </di>
         </div> 
       </div>
-     <!-- Box 5 -->
+     <!-- Box 6 -->
     <div id="caixa5">
-        <h1 id="H1P" style="width: 12em;">Atendimento Presencial</h1>
-        <p>Nossa empresa é localizado na Rua Av.Osmar souza Nunes mais estamos para se mudar para Reka China na Rússia. </p>  
+        <h1 id="H1P">Atendimento Presencial</h1>
+        <p id="Ne">Nossa empresa é localizado na Rua Av.Osmar souza Nunes mais estamos para se mudar para Reka China na Rússia. </p>  
         <img src="img/Escritorio.jpg" >
-        <img style="width: 3.5em; height: 3.5em; margin-left: -79em; margin-top: -6em;" src="ico/Localização.ico">
-        <h1 style="margin-top: -170px; margin-left: -900px;">Localização</h1>
-        <p style="font-size: 20px; margin-left: 249px; margin-top: -15px; color: orange;">Rua Av.Osmar souza Nunes</p>
-        <img style="width: 3.5em; height: 3.5em; margin-top: 1em; margin-left: 11em;" src="ico/Telefone.ico">
-        <h1 style="margin-top: -70px; margin-left: -958px;">Telefone</h1>
-        <p style="font-size: 20px; margin-left: 249px; margin-top: -15px; color: orange;">(+55) 47 8405-5737</p>
+        <img id="Loca" src="ico/Localização.ico">
+        <h1 id="lização">Localização</h1>
+        <p id="locap" >Rua Av.Osmar souza Nunes</p>
+        <img id="Tele" src="ico/Telefone.ico">
+        <h1 id="fone">Telefone</h1>
+        <p id="Telep">(+55) 47 8405-5737</p>
     </div>
     <!-- Footer -->
     <div id="caixa6">
-      <img style="width: 18em; height: 18em; margin-top: 20px; margin-left: 8em;" src="img/G tv.png" alt="">
-      <h2 style="margin-top: -280px; margin-left: 500px;">Postagens recentes</h2>
-      <img style="margin-left: 500px; width: 6em; height: 6em;" src="img/Cama.jfif" alt="">
-      <p style="width: 12em; height: 6em; font-size: 16px;  margin-left: 609px; margin-top: -96px; color: orange;">Algumas dicas de como arrumar uma cama</p>
-      <h5 style="margin-left: 609px; margin-top: -60px;">Por mobveis</h5>
-      <hr style="margin-top: 26px; margin-left: 500px; width: 18em;">
-      <img style="width: 6em; height: 6em; margin-left: 31.2em; margin-top: -10px;" src="img/Cama1.jpg" alt="">
-      <p style="width: 12em; height: 6em; font-size: 16px;  margin-left: 609px; margin-top: -96px; color: orange;">
-      Como colocar fogo em uma cama</p>
-      <h5 style="margin-left: 609px; margin-top: -60px;">Por mobveis</h5>
-      <h1 style="color: orange; margin-left: 500px; margin-top: -250px;">Redes Sociais</h1>
+      <img id="GTV" src="img/G tv.png" alt="">
+      <h2 id="PC">Postagens recentes</h2>
+      <img id="Cama" src="img/Cama.jfif" alt="">
+      <p id="AD">Algumas dicas de como arrumar uma cama</p>
+      <h5 id="mob">Por mobveis</h5>
+      <hr id="hr1">
+      <img id="Cama1" src="img/Cama1.jpg" alt="">
+      <p id="CC" >Como colocar fogo em uma cama</p>
+      <h5 id="mob1">Por mobveis</h5> 
+      <h1>Redes Sociais</h1>
       <a href="#">
-        <img style="margin-left: 950px; width: 3em; " src="ico/Facebook.ico" alt="">
+        <img id="face" src="ico/Facebook.ico" alt="">
       </a>
       <a href="#">
         <img  src="ico/Instagram.ico" alt="">
