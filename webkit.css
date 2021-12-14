@@ -1,0 +1,62 @@
+@media (min-width:1700px) and (max-width:2400px) {
+    #header{
+        background: transparent;
+        width: 110em;
+        margin: auto;
+        display: block;
+        text-align: left;
+        height: 2em;
+        margin-left: 15em;
+
+    }
+    #sub-header{
+        margin-left: 45em;
+        padding: 1px;
+        letter-spacing: 1px;
+        text-align: right;
+        margin-top: 10px;
+        line-height: 1.70;
+        word-spacing: 10px;  
+        position: fixed;
+        
+    }
+    #sub-header > a{
+        text-decoration: none;
+        color: white;
+        word-spacing: 1px;
+        
+    }
+    #fixed{
+        height: 3em;  
+        width: 200em;
+    }
+    #fundo{
+        width: 120em;
+        height: 61em;
+    }
+    #centralizado{
+        margin-top: -32px;
+        width:100em;
+    }
+    #centralizado > h3{
+        font-size: 7em;
+    }
+    #border{
+        margin-left:1em;
+        border: 1px solid transparent ;
+        border-left: 8px solid orange;
+        height: 16em;
+        margin-top: 250px;
+    }
+    #centralizado > h1{
+        font-size: 11em;
+        width: 20em;
+        margin-left: -5.4em;
+    }
+    hr{
+        border: 3px solid orange;
+        width: 36em;
+        margin-left: 1020px;
+        margin-top: -55px ;
+    }
+}

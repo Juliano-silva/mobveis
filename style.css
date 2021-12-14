@@ -29,7 +29,6 @@ h1{
     text-align: left;
     height: 2em;
     margin-left: 10em;
-    
 }
 #sub-header{
     margin-left: 45em;
@@ -140,14 +139,15 @@ hr{
     width: 22em; 
     height: 2em;
     font-size: 25px; 
-    margin-left: 1020px; 
+    margin-left: 1040px; 
     color: rgb(211, 208, 208);
 }
-#caixa > img{
-    margin-left: 1140px;
-    margin-top: -330px;
-    width: 25em;
-    height: 25em;
+
+#autor{
+    margin-left: 1120px;
+    margin-top: -360px;
+    width: 28em;
+    height: 27.6em;
 }
 /* Box 3 */
 #caixa1{
@@ -214,7 +214,7 @@ height: 38em;
 }
 /* Box 5 */
 #caixa3{
-    background: rgb(145, 142, 142);
+    background: rgb(114, 111, 111);
     height: 18em;
     margin-top: -10px;
 }
@@ -235,11 +235,11 @@ height: 38em;
 }
 /* Box 6 */
 #card{
-    background: rgb(175, 169, 169);
+    background: rgb(141, 138, 138);
 }
 #caixa4{
     height: 75em;
-    background: rgb(175, 169, 169); 
+    background: rgb(141, 138, 138);
     margin: auto;
     display: block;
 }
@@ -354,7 +354,7 @@ height: 38em;
 }
 /* Box 7 */
 #caixa5{
-    background: rgb(207, 203, 203);
+    background: rgb(168, 165, 165);
     margin-left: -20px;
     width: 100em;
     height: 35em;
@@ -389,7 +389,7 @@ height: 38em;
 #caixa5 > #Telep{font-size: 20px; margin-left: 249px; margin-top: -15px; color: orange;}
 /* Box 8 */
 #caixa6{
-    background: rgb(235, 232, 232);
+    background: rgb(196, 189, 189);
     width: 100em;
     margin-left: -20px;
     height: 24em;
@@ -404,7 +404,7 @@ height: 38em;
     width: 3em; 
 }
 #footerDev{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 221, 221);
     height: 3.2em;
     margin-left: -20px;
 }
@@ -440,3 +440,5 @@ height: 38em;
 /* Serviço */
 
 /* Sobre Nós */
+
+/* media */

@@ -7,15 +7,15 @@ const All = document.getElementById("ALL")
 function passar(){
     he.style.background="gray"
     he.style.position="fixed"
-    he.style.width="100em"
-    he.style.marginLeft="-10em"
+    he.style.width="200em"
+    he.style.marginLeft="-20em"
     he.style.transition="1.5s"
     he.style.transitionDelay="0.5s"
     he.style.display="block"
-    ico.style.marginLeft="200px"
+    ico.style.marginLeft="300px"
     ico.style.width="3.7em"
     ico.style.marginTop="-6px"
-    sub.style.marginLeft="60em"
+    sub.style.marginLeft="70em"
 }
 function começo(){
     he.style.background="transparent"
