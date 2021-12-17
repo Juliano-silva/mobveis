@@ -1,0 +1,79 @@
+@media (min-width:1000px) and (max-width:1700px) {
+    /* Box 1 Header */
+    #centralizado > h3{
+        font-size: 3em;
+    }
+    #centralizado > h1{
+        font-size: 8em;
+    }
+    #border{
+        height: 11em;
+        margin-left: auto;
+    }
+    #centralizado{
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    #border-circulo{
+        margin: auto;
+        margin-top: 14.7em;
+    }
+    /* Box 2 */
+    #caixa{
+        height: 15.5em;
+    }
+    #autor{
+        margin-top: -330px;
+        height: 25em;
+        margin-left: 1130px;
+        width: 28em;
+    }
+    #p3{
+        margin-top: -5px;
+    }
+    #Eq{
+        margin-left: 730px;
+        margin-top: -300px;
+    }
+    /* Box 5 */
+    #next{
+        margin-right: 590px;
+    }
+    #prev{
+        margin-left: 590px;
+    }
+    /* Box 6 */
+    #container > img,
+    #container1 > img,
+    #container2 > img,
+    #container3 > img{
+        width: 45em;
+    }
+    #container > a,
+    #container1 > a,
+    #container2 > a,
+    #container3 > a{
+        width: 720px;
+    }
+    #container1 > a{
+        margin-left:10px;
+    }
+    #gray{
+        margin-left: 10px;
+        width: 720px;
+    }
+    #container3 > a{
+        margin-left: 10px;
+    }
+    #container1 > img,
+    #container2 > img{
+        margin-left: 800px;
+    }
+    /* Box 7 */
+    #imgEscri{
+        width: 46em;
+    }
+    #caixa5 > #Loca{
+        margin-left: -1370px;
+    }
+}

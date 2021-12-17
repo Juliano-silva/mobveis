@@ -67,6 +67,36 @@ h1{
     height: 3em;  
     width: 76em;
 }
+#border-circulo{
+    border: 4px solid orange;
+    background: black;
+    height: 4em;
+    width: 4em;
+    margin: auto;
+    margin-top: -10em;
+    border-radius: 90%;
+}
+.border-pequena{
+    border: 2.5px solid white;
+    background: white;
+    height: 0.5em;
+    width: 0.5em;
+    margin: auto;
+    margin-top: -10em;
+    border-radius: 5vw;
+    -webkit-animation: animate 3s ease-in-out infinite forwards;
+}
+@-webkit-keyframes animate {
+  0%{
+      transform: translateY(200px);
+  }
+  50%{
+      transform: translateY(165px);
+  }
+  100%{
+      transform: translateY(200px);
+  }
+}
 /* Box 1*/
 #centralizado{
     margin-top: 230px;
@@ -77,16 +107,10 @@ h1{
     transition-duration: 1s;
     transform: 4s;
 }
-#centralizado > h3{
-    font-size: 3em;
-}
 #border{
     margin-left:1em;
     border-left:6px solid orange ; 
     height: 12em;
-}
-#centralizado > h1{
-    font-size: 8em;
 }
 hr{
     background:orange;
@@ -102,16 +126,14 @@ hr{
     display: block;
     margin: auto;
 }
-#caixa > h4{
+#Ch1{
     font-size: 3em;
 }
 #Eq{
     margin-left: 18em; 
     margin-top: -7em;
 }
-#aqui{
-    margin-left: 100em;
-}
+
 #caixa > h2{
     color: white;
     border: 1px solid transparent;
@@ -187,7 +209,7 @@ height: 38em;
    border: 1px solid transparent;
    margin: auto;
 }
-#a{ 
+#a,#a1,#a2{ 
     margin-left: 100px;
     display: inline-block;
     width: 18em;
@@ -226,12 +248,12 @@ height: 38em;
     color: rgb(32, 32, 32)
 }
 #prev{
+    margin-left: -100em;
     margin-top: 40px; 
-    margin-left: 600px;
 }
 #next{
     margin-top: 40px; 
-    margin-right: 600px;
+    margin-right: 100px;
 }
 /* Box 6 */
 #card{
@@ -273,7 +295,7 @@ height: 38em;
 #container2 > img,
 #container3 > img{
     width: 48em; 
-    height: 30em; 
+    height: 30em;
     background: #1B1B1B
 }
 #container1 > img{
@@ -370,16 +392,16 @@ height: 38em;
     margin-left: 190px;
     font-size: 2.3em;
 }
-#caixa5 > img{
+#imgEscri{
     margin-top: -15em;
     margin-left: 50em;
-    width: 40em;
+    width: 45em;
     height: 25em;
 }
 #Ne{
     color: rgb(2, 2, 2);
 }
-#caixa5 > #Loca{width: 3.5em; height: 3.5em; margin-left: -79em; margin-top: -6em;}
+#caixa5 > #Loca{width: 3.5em; height: 3.5em; margin-left: -84em; margin-top: -6em;}
 #caixa5 > #Tele{width: 3.5em; height: 3.5em; margin-top: 1em; margin-left: 11em;}
 
 #caixa5 > #lização{margin-top: -170px; margin-left: 100px;}
@@ -431,6 +453,25 @@ height: 38em;
 }
 #hr1{margin-top: 26px; margin-left: 500px; width: 18em;}
 #CC{width: 12em; height: 6em; font-size: 16px;  margin-left: 609px; margin-top: -96px; color: orange;}
+/* Modal */
+#modal2{
+    width: 1em;
+    height: 1em;
+    color: black;
+    font-size: 10em;
+    margin-top: -40px;
+    border: 5px solid transparent;
+    pointer-events: painted;
+}
+#modal-dialog{
+    background: transparent;
+    border: 1px solid transparent;
+}
+#imgModal{
+    height: 43em;
+    width: 85em;
+    margin-left: -350px;
+}
 /* Portfólio */
 
 /* Outlet */
@@ -440,5 +481,9 @@ height: 38em;
 /* Serviço */
 
 /* Sobre Nós */
-
-/* media */
+/* Fullscreen */
+@media (device-width: 100vw) and (device-height:100vh) {
+    #fundo{
+        height: 56em;
+    }
+}

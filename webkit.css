@@ -1,4 +1,9 @@
 @media (min-width:1700px) and (max-width:2400px) {
+    /* Header - Box 1  */
+    #fundo{
+        width: 120em;
+        height: 71em;
+    }
     #header{
         background: transparent;
         width: 110em;
@@ -7,51 +12,15 @@
         text-align: left;
         height: 2em;
         margin-left: 15em;
-
     }
-    #sub-header{
-        margin-left: 45em;
-        padding: 1px;
-        letter-spacing: 1px;
-        text-align: right;
-        margin-top: 10px;
-        line-height: 1.70;
-        word-spacing: 10px;  
-        position: fixed;
-        
+    #sub-caixa{
+        width: 117em;
     }
-    #sub-header > a{
-        text-decoration: none;
-        color: white;
-        word-spacing: 1px;
-        
-    }
-    #fixed{
-        height: 3em;  
-        width: 200em;
-    }
-    #fundo{
-        width: 120em;
-        height: 61em;
-    }
-    #centralizado{
-        margin-top: -32px;
-        width:100em;
-    }
-    #centralizado > h3{
-        font-size: 7em;
-    }
-    #border{
-        margin-left:1em;
-        border: 1px solid transparent ;
-        border-left: 8px solid orange;
-        height: 16em;
-        margin-top: 250px;
-    }
-    #centralizado > h1{
-        font-size: 11em;
-        width: 20em;
-        margin-left: -5.4em;
+    #sub-caixa > p{
+        width: 60em;
+        font-size:30px ;
+        margin: auto;
+        color: whitesmoke;
     }
     hr{
         border: 3px solid orange;
@@ -59,4 +28,179 @@
         margin-left: 1020px;
         margin-top: -55px ;
     }
+    
+    /* Box 2 */
+    #caixa{
+        background: black;
+        height: 18em;
+        display: block;
+        margin: auto;
+    }
+    #caixa > h4{
+        font-size: 3em;
+    }
+    #caixa > h2{
+        color: white;
+        border: 1px solid transparent;
+        border-left: 8px solid orange;
+        width: 20em;
+        margin: auto;
+        display: block;
+    }
+    #Eq{
+        margin-left: 19em; 
+        margin-top: -8.9em;
+    }
+    #p1{
+        margin-left: 120px;
+        border: 1px solid transparent;
+        font-size: 35px;
+        width: 15.5em;
+        height: 10em;
+    }
+    #p2{
+        margin-left: 900px;
+        border: 1px solid transparent;
+        font-size: 35px;
+        width: 15.5em;
+        height: 10em;
+    }
+    #p3{
+        border: 1px solid transparent; 
+        width: 22em; 
+        height: 2em;
+        font-size: 25px; 
+        margin-left: 1360px;
+        margin-top: -50px;
+        color: rgb(211, 208, 208);
+    }
+    #autor{
+        margin-left: 1440px;
+        margin-top: -520px;
+        width: 28em;
+        height: 27.6em;
+    }
+    
+}
+/* Box 3*/
+#caixa2{
+    height: 80em;
+}
+#a{
+    margin-left: -80px;
+}
+#a1{
+    margin-left: 200px;
+}
+#a2{
+    margin-left: 210px;
+}
+#centra1,#centra2,#centra3{
+width: 11.5em;
+}
+#centra1{margin-left: 5px;}
+#centra2{margin-left: 380px;}
+#centra3{margin-left: 400px;}
+/* Box 4 */
+#prev{
+    margin-top: 40px; 
+    margin-left: 700px;
+}
+#next{
+    margin-top: 40px; 
+    margin-right: 700px;
+}
+/* Box 5 */
+#container > img{
+    margin-left: 20px;
+    width: 55em;
+}
+/* Box 5 */
+#imgEscri{
+    width: 50em;
+    height: 25em;
+}
+#caixa5 > #Loca{
+    margin-left: -1430px;
+}
+#caixa5 > #lização{ margin-left: 90px;}
+#caixa5 > #locap{margin-left: 235px;}
+#container1 > img{
+    margin-left: 950px;
+    width: 55em;
+}
+#container2 > img{
+    margin-left: 950px;
+    width: 55em;
+}
+#container3 > img{
+    margin-left: 20px;
+    width: 55em;
+}
+#container >  a{
+    margin-left: 30px;
+    width: 880px;
+}
+#container1 >  a{
+    margin-left: 160px;
+    width: 880px;
+}
+#container2 > a{
+    margin-left: 30px;
+    width: 880px;
+}
+#container3 > a{
+    margin-left: 160px;
+    width: 880px;
+}
+#gray{
+    margin-left: 160px;
+    width: 880px;
+}
+/* Box 6 */
+    #carrousel{
+        width: 120em;
+        height: 60em;
+    }
+    #sub-header > a{
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+    }
+    #fixed{
+        height: 3em;  
+        width: 200em;
+    }
+    #centralizado{
+        margin-top: -35px;
+        width:100em;
+    }
+    #centralizado > h3{
+        font-size: 7em;
+    }
+    #border{
+        margin-left:-6em;
+        border: 1px solid transparent ;
+        border-left: 8px solid orange;
+        height: 16em;
+        margin-top: 260px;
+    }
+    #border-circulo{
+        margin-left: 730px;
+        margin-top: 330px;
+    }
+    #centralizado > h1{
+        font-size: 11em;
+        width: 20em;
+        margin-left: -5.4em;
+    }
+    #caixa5{
+        width: 120em;
+    }
+    #caixa6{
+        width: 120em;
+    }
+#face{
+    margin-left: 1140px; 
+    width: 3em; 
 }

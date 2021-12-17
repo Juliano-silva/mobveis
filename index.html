@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-4.0.0/scss/style.scss">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="webkit.css">
+    <link rel="stylesheet" href="webkitmin.css">
     <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
 </head>
 <body id="body">
@@ -38,6 +39,9 @@
         <hr> 
         <h1>Padrão sobrenatural</h1>
     </div>
+    <div id="border-circulo">
+      <div class="border-pequena"></div>
+    </div>
   </div>
     </div>
     </div>
@@ -48,9 +52,7 @@
         <p id="p1">Sou um programador iniciante de 17 anos que tem o sonho de se tornar um programador fullstack, esse site é sobre moveis e mostrar onde temos os maiores descontos.</p>
         <h4 id="Eq">Equipe</h4>
         <p id="p2">Nossa equipe é formada por um programador, um analista de dados e um dono de pastelaria.</p>
-        <a href="#" class="card-link" data-toggle="modal" data-target="#autorB">
         <img id="autor" src="img/Autor bebe G.png">
-      </a>
         <p id="p3">Juliano silva de almeida - Instagram ju.liano1841</p>
     </div>
     <!-- Box 3 -->
@@ -67,8 +69,8 @@
             <img id="centra3" src="img/Selo.png">
             <BR></BR>
             <h5 href="#" id="a">Equipe com foco do cliente</h5>
-            <h5 href="#" id="a">Tecnologia de ponta em cada processo</h5>
-            <h5 href="#" id="a">Essência e qualidade em cada projeto</h5>
+            <h5 href="#" id="a1">Tecnologia de ponta em cada processo</h5>
+            <h5 href="#" id="a2">Essência e qualidade em cada projeto</h5>
         </div>
         </div>
         </div>
@@ -151,7 +153,7 @@
           <p id="carouselp">Iris Tristão Bingre</p>
           <div class="carousel-caption d-none d-md-block">
           </div>
-        </div>
+        </div> 
         <div class="carousel-item">
           <h1>Eu não gostei Deslike 😡</h1>
           <p id="carouselp">Aquecia Belchiorinho Belo</p>
@@ -191,15 +193,17 @@
           </div> 
           <div id="container3">
            <img src="img/Tapete.png" >
-           <a href="#">30% OFF</a>
+           <a href="#" >30% OFF</a>
           </di>
         </div> 
       </div>
      <!-- Box 6 -->
     <div id="caixa5">
         <h1 id="H1P">Atendimento Presencial</h1>
-        <p id="Ne">Nossa empresa é localizado na Rua Av.Osmar souza Nunes mais estamos para se mudar para Reka China na Rússia. </p>  
-        <img src="img/Escritorio.jpg" >
+        <p id="Ne">Nossa empresa é localizado na Rua Av.Osmar souza Nunes mais estamos para se mudar para Reka China na Rússia. </p>
+        <a href="#" class="card-link" data-toggle="modal" data-target="#Escritorio">  
+        <img id="imgEscri" src="img/Escritorio.jpg" >
+        </a>
         <img id="Loca" src="ico/Localização.ico">
         <h1 id="lização">Localização</h1>
         <p id="locap" >Rua Av.Osmar souza Nunes</p>
@@ -234,36 +238,23 @@
       <h1>Desenvolvida por JSA</h1>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="autorB" tabindex="-1" role="dialog">
+    <div class="modal fade" id="Escritorio" tabindex="-1" role="dialog">
+      <button id="modal2" type="button" class="close" data-dismiss="modal">
+        <span>&times;</span>
+      </button>
       <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">nam amet consequatur</h5>
-            <button type="button" class="close" data-dismiss="modal">
-              <span>&times;</span>
-            </button>
-          </div>
+        <div id="modal-dialog" class="modal-content">
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-6">
-                  <h5>lorem</h5>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod natus quo recusandae earum doloremque velit eius similique a vitae cumque deleniti deserunt reiciendis autem perspiciatis, sunt tempore maiores veritatis quidem?</p>
-                </div>
-                <div class="col-6">
-                  <h5>lorem2</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsam dolorem ad laudantium nam saepe inventore natus praesentium accusantium cum autem repellendus facilis doloribus harum, iste perferendis aliquid neque voluptate!</p>
+                 <img id="imgModal" src="img/Escritorio.jpg" alt="">
                 </div>
               </div>
             </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Donec</button>
-          </div>
         </div>
       </div>
-
-
 </body>
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
