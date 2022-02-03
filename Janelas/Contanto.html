@@ -6,26 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="Header e footer.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-4.0.0/compiler/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-4.0.0/scss/style.scss">
+    <link rel="stylesheet" href="../node_modules/bootstrap-4.0.0/scss/style.scss">
 </head>
-<body>
-    <!-- Header -->
-    <div id="fundo" onpointerenter="começo()">
-        <div id="header">
-          <div id="fixed" style=" height: 3em;  width: 76em;">
-            <a href="#">
-                <img id="ico" src="../ico/favicon.ico" alt="">
-            </a>
-            <div id="sub-header">
-                <a href="../index.html">Home</a>
-                <a href="Portfólio.html">Portfólio</a>
-                <a href="Outlet.html">Outlet</a>
-                <a href="Contanto.html">Contanto</a>
-                <a href="Serviço.html">Serviço</a>
-                <a href="Sobre.html">Sobre Nós</a>
-            </div>
+<body id="ContantoBody">
+   <!-- Header -->
+   <div id="Contantofundo" >
+    <div id="header">
+      <div id="fixed">
+        <a href="#">
+            <img id="ico" src="../img/icons8-tv-g-48.png">
+        </a>
+    <div id="sub-header">
+        <a href="../index.html">Home</a>
+        <a href="../Janelas/Portfólio.html">Portfólio</a>
+        <a href="../Janelas/Contanto.html">Contanto</a>
+        <a href="../Janelas/Serviço.html">Serviço</a>
+        <a href="../Janelas/Sobre.html">Sobre Nós</a>
+    </div>
+  </div>
+    <!-- Sobre -->
+      <div id="Contanto">
       </div>
-      <img onpointerenter="passar()" id="img" src="../img/Móvel-removebg-preview.png" alt="">
+      <div id="ContantoBord">
+        <br>
+        <a href="#">
+          <img class="icoContanto" src="../ico/Orçamento.ico" alt="">
+          <h1>Orçamento</h1>
+        </a>
+        <a href="#">
+          <img class="icoContanto" src="../ico/Pessoa.ico" alt="">
+          <h1>Trabalhe Conosco</h1>
+        </a>
+        <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.958591301491!2d-46.93418074889906!3d-23.820071477007446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfb119d6866d71%3A0x43e23d7e407d86c0!2sR.%20das%20Lamenta%C3%A7%C3%B5es%20-%20Despezio%2C%20S%C3%A3o%20Louren%C3%A7o%20da%20Serra%20-%20SP%2C%2006890-000!5e0!3m2!1spt-BR!2sbr!4v1640059690882!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    <!-- Box 1 -->
+    <div id="caixa6">
+      <img id="GTV" src="../img/G tv.png" alt="">
+      <div id="Postagens">
+      <h2 id="PC">Postagens recentes</h2>
+      <img id="Cama" src="../img/Cama.jfif" alt="">
+      <p id="AD">Algumas dicas de como arrumar uma cama</p>
+      <h5 id="mob">Por mobveis</h5>
+      <hr id="hr1">
+      <img id="Cama1" src="../img/Cama1.jpg" alt="">
+      <p id="AD" >Como colocar fogo em uma cama</p>
+      <h5 id="mob1">Por mobveis</h5>
+    </div>
+    <div id="RedesS">
+      <h1>Redes Sociais</h1>
+      <a href="https://www.facebook.com/juliano.silvadealmeida.100" id="La">
+        <img id="book" src="../ico/Facebook.ico" alt="">
+      </a>
+
+      <a href="https://www.instagram.com/ju.liano1841/" id="La">
+        <img id="inst"  src="../ico/Instagram.ico" alt="">
+      </a>
+
+      <a href="https://github.com/Juliano-silva" id="La">
+        <img id="git" src="../ico/Github.ico" alt="">
+      </a>
+    </div>
+  </div>
+    <!-- Footer desenvolvedor -->
+    <div id="footerContanto">
+      <h1>Desenvolvida por JSA</h1>
+    </div>
 </body>
-<script src="../java.js"></script>
+<script src="../https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/popper.js/dist/popper.js"></script>
+<script src="../node_modules/bootstrap-4.0.0/dist/js/bootstrap.js"></script>
+<script src="ComeçoeFim.js"></script>
 </html>

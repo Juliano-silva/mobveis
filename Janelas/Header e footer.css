@@ -1,0 +1,90 @@
+body{
+    height: 20em;
+}
+#fundo{
+    width: 120em;
+    height: 71em;
+}
+#header{
+    background: transparent;
+    width: 110em;
+    margin: auto;
+    display: block;
+    text-align: left;
+    height: 2em;
+    margin-left: 15em;
+    line-height: 1.70;
+    word-spacing: 10px;  
+    letter-spacing: 1px;
+}
+
+#card{
+    background: rgb(141, 138, 138);
+}
+#fixed{
+    margin: auto;
+    display: block;
+    width: 2000px;
+    margin-left: -250px;
+    margin-top: -3em;
+}
+#ico{
+    margin-left: 30em;
+}
+#sub-header{
+    margin-right: 25em;
+}
+#sub-header > a{
+    text-decoration: none;
+    color: white;
+}
+/* Box 8 */
+#caixa6{
+    background: rgb(196, 189, 189);
+    width: 170em;
+    margin-top: -0.1px;
+    margin-left: -250px;
+    height: 24em;
+}
+#caixa6 > h1{
+    color: orange; 
+    margin-left: 500px; 
+    margin-top: -150px;
+}
+#face{
+    margin-left: 1520px; 
+    width: 3em; 
+}
+#footerDev{
+    background-color: rgb(224, 221, 221);
+    height: 3.2em;
+    width: 120em;
+    margin-left: -250px;
+}
+#footerDev > h1{
+    text-align: center;
+    color: black;
+}
+#GTV{
+    width: 18em; height: 18em; margin-top: 20px; margin-left: 27em;
+}
+#PC{
+    margin-top: -280px; margin-left: 500px; color: rgb(2, 2, 2);
+}
+#Cama{margin-left: 500px; width: 6em; height: 6em;}
+#Cama1{width: 6em; height: 6em; margin-left: 31.2em; margin-top: -10px;}
+#AD{
+    width: 12em; height: 6em; word-spacing: 1px; font-size: 18px;  margin-left: 609px; margin-top: -86px; color: rgb(216, 144, 9);
+}
+
+#mob{
+    margin-left: 609px; margin-top: -65px; color: rgb(2, 2, 2);
+}
+#mob1{
+    margin-left: 609px; margin-top: -60px; color: rgb(2, 2, 2);
+}
+#hr1{margin-top: 26px; margin-left: 500px; width: 18em;}
+
+#RedesS{
+    margin-top: -280px;
+}
